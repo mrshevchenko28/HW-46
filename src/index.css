@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 15px;
+  background-color: hsl(0, 30%, 86%);
+}
+
+.counter-display {
+  font-size: 10em;
+  margin: 50px 10px 50px 10px ;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.async-text {
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.idle {
+  font-style: normal;
+  font-weight: bold;
+}
+.wrong {
+  font-style: normal;
+  font-weight: bold;
+  color: hsl(0, 100%, 50%);
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.increment {
+  background-color: hsl(120, 100%, 50%);
+}
+
+.increment:hover {
+  background-color: hsl(120, 100%, 40%);
+}
+
+.decrement {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.decrement:hover {
+  background-color:  hsl(0, 100%, 40%);
+}
+
+.add-amount {
+  background-color: hsla(192, 100%, 50%);
+}
+
+.add-amount:hover {
+  background-color: hsla(192, 100%, 40%);
+}
+
+.add-async {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.add-async:hover {
+  background-color: hsl(39, 100%, 40%);
+}
+.reset {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.reset:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+.counter-input {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid hsla(192, 100%, 46%, 0.952);
+  border-radius: 5px;
+  font-size: 24px;
+}
